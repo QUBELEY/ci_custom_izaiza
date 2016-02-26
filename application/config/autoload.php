@@ -64,7 +64,7 @@ $autoload['packages'] = array(
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
 //$autoload['libraries'] = array();
-$autoload['libraries'] = array('smarty', 'form_validation', 'logs', 'utils', 'imgs', 'JPHPMailer', 'PHPExcel');
+$autoload['libraries'] = array('smarty', 'form_validation', 'logs', 'utils', 'imgs', 'JPHPMailer' => 'jphpmailer', 'PHPExcel');
 /*
 | -------------------------------------------------------------------
 |  Auto-load Drivers
